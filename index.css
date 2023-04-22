@@ -1,0 +1,107 @@
+body
+{
+    background-color: black;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 100;
+padding-left: 100px;
+padding-top: 60px;
+padding-right: 100px;
+}
+h2
+{
+    font-weight: 250;
+    margin-bottom: 30px;
+}
+
+#drop
+{
+    padding: 10px 5px;
+    font-size: large;
+    border: 2px solid white;
+    background-color: black;
+    color: white;
+    margin-bottom: 30px;
+}
+
+#list
+{
+    margin-bottom: 30px;
+    width: 800px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+}
+#d1
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    border: 2px solid white;
+border-radius: 10px;
+padding: 20px 5px;
+
+}
+
+.d2
+{
+    display: none;
+}
+
+#filter
+{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+padding: 10px 40px;
+border: 1px solid white;
+
+}
+
+#addu
+{
+    display: flex;
+    flex-direction: row;
+    margin: none;
+    justify-content: space-between;
+}
+
+#d2
+{
+    display: grid;
+    gap: 5px;
+    grid-template-rows: 1fr 1fr; 
+    margin: 30px;
+    
+}
+
+#d2>input
+{
+    width: 200px;
+    height: 20px;
+}
+
+#f
+{
+    margin-bottom: 0px;
+}
+#add
+{
+    background-color: white;
+    color: black;
+    margin-bottom: 30px;
+    font-size: large;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+padding: 10px 40px;
+border: 1px solid white;
+margin-top: 30px;
+}
+.i1
+{
+   justify-content: start;
+    margin: 0px;
+    align-items: start;
+}

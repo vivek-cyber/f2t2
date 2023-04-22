@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+</head>
+<body>
+    <header>
+        <h2>Fliter UI cards via their profession.</h2>
+    </header>
+
+
+    <main>
+        <select name="dropdown" id="drop">
+            <option value="pro">Profession</option>
+            <option value="developer">developer</option>
+            <option value="admin">admin</option>
+        </select>
+
+        <div id="list">
+            
+        </div>
+
+        <Button id="filter" onclick="fill()">Filter</Button>
+
+        <h2 id="f">Add a new user</h2>
+
+        <div id="addu">
+            <div id="d2" class="i1"> <span>Enter Name</span> <input id="name" type="text"> </div>
+            <div id="d2"> <span>Enter Profession</span> <input id="profe" type="text"></div>
+            <div id="d2"> <span>Enter Age</span> <input id="age" type="text"></div>
+        </div>
+
+        <button id="add" onclick="addu()">Add user</button>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
